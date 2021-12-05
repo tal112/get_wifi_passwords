@@ -1,4 +1,4 @@
-# Port Scanner
+# Get Wifi Passwords
 
 > Author: Tal Sperling
 
