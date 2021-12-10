@@ -61,7 +61,7 @@ for name in profile_names:
             splt_lst = command_output[start:]
             splt_lst = splt_lst.split("\n")
             splt_lst = splt_lst[0].split(":")
-            password = splt_lst[1][:-2]
+            password = splt_lst[1]
 
             password = {"ssid":name,"password":password}
             data.append(password)
